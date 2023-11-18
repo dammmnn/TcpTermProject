@@ -1,0 +1,212 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.loginButton {
+  background-color: #3498db; 
+  width: 300px;
+  color: #fff;
+  border: none; 
+  padding: 10px 20px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  border-radius: 5px; 
+}
+
+.loginButton:hover {
+  background-color: #217dbb; 
+}
+
+.loginBox {
+  background-image: url(/public/loginimage.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+}
+
+.loginBox2 {
+  background-color: rgba(255, 255, 255, 0.8); /* 반투명한 배경색 */
+  padding: 20px; /* 내용과 박스 사이의 간격을 조절하세요 */
+  border-radius: 10px; /* 박스 모서리를 둥글게 만듭니다 */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* 그림자 효과 추가 */
+  text-align: center;
+  width: 500px;
+  height: 400px;
+}
+
+
+.banner{
+  background : black;
+  width : 100%;
+  display : flex;
+  color : white;
+  padding : 20px;
+}
+.newroom {
+  margin: 0 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.newroom__form {
+  padding: 10px;
+  width: 100%;
+  max-width: 5000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.newroom_text {
+  flex-grow: 1;
+  margin: 5px 10px 5px 5px;
+  min-width: 0px;
+  height: 50px;
+}
+
+.newroom__submit {
+  margin: 10px 10px 10px 10px;
+  padding: 0px;
+  width: 140px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.room-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.create-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.room-list {
+  list-style: none;
+  padding: 0;
+}
+
+.room-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-top: 1px solid #ccc;
+}
+
+.join-button {
+  padding: 12px 24px; /* 내부 여백을 조절하여 버튼 크기 늘리기 */
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ChatApp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.Box {
+  width: 700px;
+  height: 900px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ChatBox {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.Message {
+  margin-bottom: 10px;
+}
+
+.InputBox {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.TextInput {
+  flex: 1;
+  margin-right: 10px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.SendButton {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.list {
+  text-align : left;
+  padding-left : 20px;
+  border-bottom : 1px solid grey;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
